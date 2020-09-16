@@ -43,6 +43,11 @@ class App extends Component {
           <LambdaDemo />
         </header>
       </div>
+      <div className="Game">
+      <p>
+        Lets Goo i added my own text
+      <p>
+      </div>
     )
   }
 }
