@@ -39,16 +39,12 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             This is Really Painful for Me Rn
+            Can i add text here?
           </p>
           <LambdaDemo />
         </header>
       </div>
     )
-    <div classname="game">
-      <p>
-      Can i add text here?
-      <p>
-   </div>
   }
 }
 
