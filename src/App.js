@@ -16,6 +16,19 @@ class LambdaDemo extends Component {
       .then(response => response.json())
       .then(json => this.setState({ loading: false, msg: json.msg }))
   }
+
+  render() {
+    const { loading, msg } = this.state
+
+    return (
+      <p>
+        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
+        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        <br />
+        <span>{msg}</span>
+      </p>
+    )
+  }
 }
 
 class App extends Component {
@@ -25,7 +38,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            This is painful
+            This is Really Painful for Me Rn
           </p>
           <LambdaDemo />
         </header>
