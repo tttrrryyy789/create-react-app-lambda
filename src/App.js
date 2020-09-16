@@ -22,10 +22,7 @@ class LambdaDemo extends Component {
 
     return (
       <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
+      filler
       </p>
     )
   }
@@ -38,7 +35,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Bruh slowly im finding all of these
           </p>
           <LambdaDemo />
         </header>
